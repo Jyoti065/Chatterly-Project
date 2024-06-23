@@ -6,43 +6,240 @@
     <title>Chatterly</title>
     <link rel="stylesheet" href="Chatterly.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="font-family: Plus Jakarta Sans;">
     <div class="header">
         <div>
-            <span>Chatterly</span>
-           <div class="chat"><i class="fa-regular fa-comment-dots;"></i></div>
+            <span><b>Chatterly</b></span>
+           <div class="chat"><i class="fa-regular fa-comment-dots"></i></div>
         </div>
             <div class="profile">
-            <img src="./image/images.jpg">
-            <select value="text" name="Jyoti" style="border: none;">
+            <div class="images">
+                <img src="./image/profile img.jpg" style="border-radius: 32px;">
+            </div>
+            <select value="text" name="Jyoti" style="border: none; height: 43px; ">
                 <option>Jyoti</option>
-                <option>login</option>
-                <option>logout</option>
             </select>
             </div>
-        </div><hr>
-    <div class="main">
+        </div>
+    <div class="main" style="background-color: white;">
             <span class="filter">Filters</span>
         <div class="vertical"></div>
         <div class="created">Created By</div>
         <div>
             <select value="text" class="All">
                 <option>All</option>
-                <option>login</option>
-                <option>logout</option>
             </select>
         </div>
         <div class="publish">Published Date</div>
         <select value="text" class="date">
             <option>Select Date</option>
         </select>
-        <div class="search"><i class="fa-solid fa-magnifying-glass"></i>Search</div>
-        <input type="text" placeholder="  Type Here">
-    </div><hr>
-    
-        
-    
-    
+        <div class="search">Search</div>
+        <input type="text" placeholder="   Type Here">
+        <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>   
+    </div>
+    <div class="blog">
+        <span>Blog Posts</span>
+    </div>
+    <section class="cardcontainer">
+     <div class="card">
+        <div class="picture">
+            <img src="./image/backimg.png" style="width: 305px; height: 175px; border-radius: 12px;">
+        </div>
+        <p class="title">How to make GUI in Java with example example</p>
+        <hr>
+        <div class="pic">
+            <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+        </div>
+        <span class="pictext">Dasteen</span>
+        <span class="month">Jan 10,2022</span>
+        <div class="like"><i class="fa-solid fa-heart"></i></div>
+        <span class="likecount">03</span>
+        <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+        <span class="commentcount">12</span>
+     </div>
+     <div class="card">
+        <div class="picture">
+            <img src="./image/backimg2.png" style="width: 305px; height: 175px; border-radius: 12px;">
+        </div>
+        <p class="title">Make animated light mode and dark mode toggle with CSS</p>
+        <hr>
+        <div class="pic">
+            <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+        </div>
+        <span class="pictext">Dasteen</span>
+        <span class="month">Jan 10,2022</span>
+        <div class="like"><i class="fa-solid fa-heart"></i></div>
+        <span class="likecount">03</span>
+        <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+        <span class="commentcount">12</span>
+     </div>
+     </div>
+        <div class="card">
+            <div class="picture">
+                <img src="./image/backimg.png" style="width: 305px; height: 175px; border-radius: 12px;">
+            </div>
+            <p class="title">How to make GUI in Java with example example</p>
+            <hr>
+            <div class="pic">
+                <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+            </div>
+            <span class="pictext">Dasteen</span>
+            <span class="month">Jan 10,2022</span>
+            <div class="like"><i class="fa-solid fa-heart"></i></div>
+            <span class="likecount">03</span>
+            <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+            <span class="commentcount">12</span>
+         </div>
+     </div>
+    </section>
+    <section class="cardcontainer">
+        <div class="card">
+           <div class="picture">
+               <img src="./image/backimg.png" style="width: 305px; height: 175px; border-radius: 12px;">
+           </div>
+           <p class="title">How to make GUI in Java with example example</p>
+           <hr>
+           <div class="pic">
+               <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+           </div>
+           <span class="pictext">Dasteen</span>
+           <span class="month">Jan 10,2022</span>
+           <div class="like"><i class="fa-solid fa-heart"></i></div>
+           <span class="likecount">03</span>
+           <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+           <span class="commentcount">12</span>
+        </div>
+        <div class="card">
+           <div class="picture">
+               <img src="./image/backimg2.png" style="width: 305px; height: 175px; border-radius: 12px;">
+           </div>
+           <p class="title">Make animated light mode and dark mode toggle with CSS</p>
+           <hr>
+           <div class="pic">
+               <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+           </div>
+           <span class="pictext">Dasteen</span>
+           <span class="month">Jan 10,2022</span>
+           <div class="like"><i class="fa-solid fa-heart"></i></div>
+           <span class="likecount">03</span>
+           <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+           <span class="commentcount">12</span>
+        </div>
+        </div>
+           <div class="card">
+               <div class="picture">
+                   <img src="./image/backimg.png" style="width: 305px; height: 175px; border-radius: 12px;">
+               </div>
+               <p class="title">How to make GUI in Java with example example</p>
+               <hr>
+               <div class="pic">
+                   <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+               </div>
+               <span class="pictext">Dasteen</span>
+               <span class="month">Jan 10,2022</span>
+               <div class="like"><i class="fa-solid fa-heart"></i></div>
+               <span class="likecount">03</span>
+               <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+               <span class="commentcount">12</span>
+            </div>
+        </div>
+       </section>
+       <section class="cardcontainer">
+        <div class="card">
+           <div class="picture">
+               <img src="./image/backimg.png" style="width: 305px; height: 175px; border-radius: 12px;">
+           </div>
+           <p class="title">How to make GUI in Java with example example</p>
+           <hr>
+           <div class="pic">
+               <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+           </div>
+           <span class="pictext">Dasteen</span>
+           <span class="month">Jan 10,2022</span>
+           <div class="like"><i class="fa-solid fa-heart"></i></div>
+           <span class="likecount">03</span>
+           <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+           <span class="commentcount">12</span>
+        </div>
+        <div class="card">
+           <div class="picture">
+               <img src="./image/backimg2.png" style="width: 305px; height: 175px; border-radius: 12px;">
+           </div>
+           <p class="title">Make animated light mode and dark mode toggle with CSS</p>
+           <hr>
+           <div class="pic">
+               <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+           </div>
+           <span class="pictext">Dasteen</span>
+           <span class="month">Jan 10,2022</span>
+           <div class="like"><i class="fa-solid fa-heart"></i></div>
+           <span class="likecount">03</span>
+           <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+           <span class="commentcount">12</span>
+        </div>
+        </div>
+           <div class="card">
+               <div class="picture">
+                   <img src="./image/backimg.png" style="width: 305px; height: 175px; border-radius: 12px;">
+               </div>
+               <p class="title">How to make GUI in Java with example example</p>
+               <hr>
+               <div class="pic">
+                   <img src="./image/pic.jpg" style="height: 38px; width: 38px; border-radius: 30px;">
+               </div>
+               <span class="pictext">Dasteen</span>
+               <span class="month">Jan 10,2022</span>
+               <div class="like"><i class="fa-solid fa-heart"></i></div>
+               <span class="likecount">03</span>
+               <div class="comment"><i class="fa-solid fa-comment-dots"></i></div>
+               <span class="commentcount">12</span>
+            </div>
+        </div>
+       </section>
+<div class="bottom">
+    <div class="training-blog">
+        <span class="training">Training</span>
+        <span class="blogs">Blog</span>
+     <pre class="para" style="font-family: Plus Jakarta Sans;">
+         Welcome To Our Technical Blog, Where We Delve Into 
+         The World Of Cutting-Edge Technologies And Explore 
+         Their Practical Applications.</pre>
+    </div>
+    <div class="category">
+       <span class="cate">CATEGORY</span>
+       <pre class="list" style="font-family: Plus Jakarta Sans;">
+        HTML
+        CSS 
+        JAVASCRIPT 
+        VS CODE
+       </pre>
+    </div>
+    <div class="in-touch">
+        <span class="get">GET IN TOUCH</span>
+        <pre class="contact" style="font-family: Plus Jakarta Sans;">
+        +91-8XXX-XXX-XX
+
+        demo@gmail.com
+        </pre>
+    </div>
+    <div class="follow">
+        <span class="us">FOLLOW US ON</span>
+        <div class="icon">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+  </div>   
+</div> 
+    <div class="footer">
+        <div class="copyright">© 2023 TRAININGBLOG</div>
+        <div class="made">MADE WITH ❤️ MOHALI, INDIA</div>
+    </div>   
 </body>
 </html>
