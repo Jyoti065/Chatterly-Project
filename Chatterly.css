@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    width: 2000px;
 }
 span{
     display: flex;
@@ -32,18 +31,17 @@ span{
 }
 .profile
 {
-    margin-right: 100px;
+    margin-right: 70px;
     display: flex;
-    justify-content: right;   
+    justify-content: right; 
 }
-.images{
-    width: 32px;
-    height: 32px;
+.image{
+
     display: flex;
     justify-content: right;
-    margin: 7px;
-    
+    margin: 7px;   
 }
+
 .main{
     background-color: white;
     height: 72px;
